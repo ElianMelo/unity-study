@@ -1,5 +1,8 @@
-public interface ITurnable
+namespace UnityStudy.Solid.LiskovSubstitution
 {
-    public void TurnRight();
-    public void TurnLeft();
+    public interface ITurnable
+    {
+        public void TurnRight();
+        public void TurnLeft();
+    }
 }

@@ -1,5 +1,8 @@
-public interface IMovable
+namespace UnityStudy.Solid.LiskovSubstitution
 {
-    public void GoForward();
-    public void Reverse();
+    public interface IMovable
+    {
+        public void GoForward();
+        public void Reverse();
+    }
 }

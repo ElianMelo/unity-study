@@ -1,10 +1,13 @@
-public class RailVehicle : IMovable
+namespace UnityStudy.Solid.LiskovSubstitution
 {
-    public void GoForward()
+    public class RailVehicle : IMovable
     {
-    }
+        public void GoForward()
+        {
+        }
 
-    public void Reverse()
-    {
+        public void Reverse()
+        {
+        }
     }
 }

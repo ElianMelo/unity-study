@@ -1,18 +1,21 @@
-public class RoadVehicle : IMovable, ITurnable
+namespace UnityStudy.Solid.LiskovSubstitution
 {
-    public void GoForward()
+    public class RoadVehicle : IMovable, ITurnable
     {
-    }
+        public void GoForward()
+        {
+        }
 
-    public void Reverse()
-    {
-    }
+        public void Reverse()
+        {
+        }
 
-    public void TurnLeft()
-    {
-    }
+        public void TurnLeft()
+        {
+        }
 
-    public void TurnRight()
-    {
+        public void TurnRight()
+        {
+        }
     }
 }
