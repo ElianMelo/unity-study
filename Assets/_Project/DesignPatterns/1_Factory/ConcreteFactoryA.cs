@@ -7,7 +7,7 @@ namespace UnityStudy.DesignPatterns.Factory
         [SerializeField] private string productName = "ProductA";
         public string ProductName { get { return productName; } set => productName = value; }
 
-        private ParticleSystem particleSystem;
+        private new ParticleSystem particleSystem;
 
         public void Initialize()
         {
