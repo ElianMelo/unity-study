@@ -1,8 +1,7 @@
 using UnityEngine;
 using UnityEngine.UIElements;
-using UnityStudy.DesignPatterns.ModelViewPresenter;
 
-namespace UnityStudy.DesignPatterns
+namespace UnityStudy.DesignPatterns.ModelViewPresenter
 {
     public class HealthPresenter : MonoBehaviour
     {
